@@ -15,7 +15,7 @@
 - 🧠 **Machine learning on real data**: models evaluated on what they have never seen, from unseen patients to never-measured parts of a building
 - ⚙️ **From model to product**: experiment tracking with MLflow, prediction APIs with FastAPI, Docker images, tests and continuous integration
 - 🎓 **Exchange semester at KU Leuven** in artificial intelligence and statistics: deep learning, time series, wavelets
-- 🚗 **Founder of BA Prestige Auto**, where I built the online vehicle-registration service (Next.js, Supabase, Stripe)
+- 🔬 **Skin cancer image classification**: a convolutional network trained in PyTorch to tell malignant melanomas from benign lesions, about 93% accuracy on 2,000 test images
 
 ![divider](./divider.svg)
 
@@ -38,7 +38,7 @@
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3>❤️ <a href="https://github.com/yanis-andr/ecg-legendre">ecg-legendre</a></h3>
+      <h3>🫀 <a href="https://github.com/yanis-andr/ecg-legendre">ecg-legendre</a></h3>
       <p>Cardiac arrhythmia detection from electrocardiograms. Each heartbeat is summarised by 13 Legendre coefficients, then the model is evaluated again on patients it has never seen, which turns a 98.6% project score into a realistic picture of what generalises.</p>
       <img src="https://skillicons.dev/icons?i=python,matlab&theme=dark" height="28" />
     </td>
@@ -50,14 +50,14 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🔬 <a href="https://github.com/yanis-andr/melanoma-cnn">melanoma-cnn</a></h3>
-      <p>Malignant melanoma or benign lesion? A convolutional network trained from scratch in PyTorch on 11,879 skin images, reaching about 93% accuracy on 2,000 test images.</p>
-      <img src="https://skillicons.dev/icons?i=python,pytorch&theme=dark" height="28" />
-    </td>
-    <td width="50%" valign="top">
       <h3>📡 Indoor localisation API</h3>
       <p>Research internship at ISEP: physics-informed neural networks that locate a person indoors from LoRa signals, cutting the error by 16% on never-measured zones. The code then became a service, with MLflow tracking and a FastAPI model in Docker. Code available on request.</p>
       <img src="https://skillicons.dev/icons?i=python,pytorch,docker,fastapi&theme=dark" height="28" />
+    </td>
+    <td width="50%" valign="top">
+      <h3>🚗 BA Prestige Auto</h3>
+      <p>The used-car trading and import company I founded during my first year of engineering school, and its online vehicle-registration service that I built end to end, with online payment, a client area and the six official Cerfa forms filled in automatically.</p>
+      <img src="https://skillicons.dev/icons?i=nextjs,ts,postgres&theme=dark" height="28" />
     </td>
   </tr>
 </table>
