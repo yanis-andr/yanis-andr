@@ -55,7 +55,7 @@
       <img src="https://skillicons.dev/icons?i=python,pytorch,docker,fastapi&theme=dark" height="28" />
     </td>
     <td width="50%" valign="top">
-      <h3>🚗 BA Prestige Auto</h3>
+      <h3>🚗 BA-Prestige Auto</h3>
       <p>The used-car trading and import company I founded during my first year of engineering school, and its online vehicle-registration service that I built end to end, with online payment, a client area and the six official Cerfa forms filled in automatically.</p>
       <img src="https://skillicons.dev/icons?i=nextjs,ts,postgres&theme=dark" height="28" />
     </td>
