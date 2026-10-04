@@ -4,7 +4,7 @@
 
 ![Profile Views](https://komarev.com/ghpvc/?username=yanis-andr&style=for-the-badge&color=1f4e79&label=PROFILE+VIEWS)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yanis-andre-b0977232a) [![Email](https://img.shields.io/badge/Email-contact%40yanis--andre.fr-1f4e79?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:contact@yanis-andre.fr) [![Portfolio](https://img.shields.io/badge/Portfolio-yanis--andre.fr-14202d?style=for-the-badge&logo=astro&logoColor=white)](https://yanis-andre.fr) [![Status](https://img.shields.io/badge/Open%20to-AI%20%2F%20Data%20internship%20%C2%B7%20Feb%202027-2ea44f?style=for-the-badge)](https://www.linkedin.com/in/yanis-andre-b0977232a)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yanis-andre) [![Email](https://img.shields.io/badge/Email-contact%40yanis--andre.fr-1f4e79?style=for-the-badge&logo=maildotru&logoColor=white)](mailto:contact@yanis-andre.fr) [![Portfolio](https://img.shields.io/badge/Portfolio-yanis--andre.fr-14202d?style=for-the-badge&logo=astro&logoColor=white)](https://yanis-andre.fr) [![Status](https://img.shields.io/badge/Open%20to-AI%20%2F%20Data%20internship%20%C2%B7%20Feb%202027-2ea44f?style=for-the-badge)](https://www.linkedin.com/in/yanis-andre)
 
 </div>
 
