@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Yanis André, AI and data engineering student">
+  <defs>
+    <linearGradient id="fond" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#14202d"/>
+      <stop offset="1" stop-color="#1f3347"/>
+    </linearGradient>
+    <linearGradient id="trait" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8fb8e0" stop-opacity="0"/>
+      <stop offset=".3" stop-color="#8fb8e0" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#8fb8e0" stop-opacity=".9"/>
+    </linearGradient>
+    <style>
+      .titre { font: 600 54px Georgia, 'Times New Roman', serif; fill: #f6f3ec; }
+      .sous { font: 400 21px -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #c9d5e3; }
+      .accroche { font: italic 400 20px Georgia, 'Times New Roman', serif; fill: #8fb8e0; }
+      .label { font: 500 11px ui-monospace, 'SF Mono', Menlo, monospace; fill: #8fa3b8; letter-spacing: .08em; }
+      .noeud { fill: #14202d; stroke: #8fb8e0; stroke-width: 2; }
+      .actif { animation: allume 4s ease-in-out infinite; }
+      .a2 { animation-delay: .5s; } .a3 { animation-delay: 1s; } .a4 { animation-delay: 1.5s; }
+      .point { animation: file 4s linear infinite; }
+      .p2 { animation-delay: 1.3s; } .p3 { animation-delay: 2.6s; }
+      @keyframes allume { 0%, 100% { fill: #14202d; } 40% { fill: #8fb8e0; } }
+      @keyframes file { 0% { transform: translateX(0); opacity: 0; } 10% { opacity: 1; } 90% { opacity: 1; } 100% { transform: translateX(150px); opacity: 0; } }
+      @media (prefers-reduced-motion: reduce) { .actif, .point { animation: none; } }
+    </style>
+  </defs>
+  <rect width="1200" height="300" rx="18" fill="url(#fond)"/>
+
+  <text class="titre" x="64" y="122">Yanis André</text>
+  <text class="sous" x="66" y="166">AI &amp; Data Engineering Student · ENSEIRB-MATMECA × KU Leuven</text>
+  <text class="accroche" x="66" y="212">From raw data to models that hold up in the real world.</text>
+
+  <!-- Petit pipeline : données, modèle, produit -->
+  <g transform="translate(752 40)">
+    <text class="label" x="0" y="0">DATA</text>
+    <text class="label" x="168" y="0">MODEL</text>
+    <text class="label" x="318" y="0">PRODUCT</text>
+
+    <!-- données : une série bruitée -->
+    <polyline points="0,70 14,52 28,80 42,48 56,66 70,40 84,74 98,56 112,62" fill="none" stroke="#c9d5e3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity=".85"/>
+    <circle cx="42" cy="48" r="4" fill="#d9826b"/>
+
+    <!-- flux vers le modèle -->
+    <g stroke="url(#trait)" stroke-width="1.5">
+      <line x1="120" y1="62" x2="160" y2="40"/>
+      <line x1="120" y1="62" x2="160" y2="84"/>
+    </g>
+    <circle class="point" cx="120" cy="62" r="3" fill="#8fb8e0"/>
+    <circle class="point p2" cx="120" cy="62" r="3" fill="#8fb8e0"/>
+    <circle class="point p3" cx="120" cy="62" r="3" fill="#8fb8e0"/>
+
+    <!-- modèle : un petit réseau -->
+    <g stroke="#3f5a75" stroke-width="1">
+      <line x1="170" y1="40" x2="215" y2="28"/><line x1="170" y1="40" x2="215" y2="62"/><line x1="170" y1="40" x2="215" y2="96"/>
+      <line x1="170" y1="84" x2="215" y2="28"/><line x1="170" y1="84" x2="215" y2="62"/><line x1="170" y1="84" x2="215" y2="96"/>
+      <line x1="215" y1="28" x2="260" y2="62"/><line x1="215" y1="62" x2="260" y2="62"/><line x1="215" y1="96" x2="260" y2="62"/>
+    </g>
+    <circle class="noeud actif" cx="170" cy="40" r="7"/>
+    <circle class="noeud actif" cx="170" cy="84" r="7"/>
+    <circle class="noeud actif a2" cx="215" cy="28" r="7"/>
+    <circle class="noeud actif a2" cx="215" cy="62" r="7"/>
+    <circle class="noeud actif a2" cx="215" cy="96" r="7"/>
+    <circle class="noeud actif a3" cx="260" cy="62" r="8"/>
+
+    <line x1="270" y1="62" x2="312" y2="62" stroke="url(#trait)" stroke-width="1.5"/>
+
+    <!-- produit : une carte de réponse d'API -->
+    <rect x="316" y="26" width="112" height="72" rx="10" fill="#14202d" stroke="#3f5a75"/>
+    <text x="328" y="48" style="font: 600 11px ui-monospace, Menlo, monospace; fill: #8fb8e0;">200 OK</text>
+    <polyline points="328,82 342,72 356,78 370,64 384,70 398,58 414,62" fill="none" stroke="#8fb8e0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle class="actif a4" cx="414" cy="62" r="3.5" fill="#14202d" stroke="#8fb8e0" stroke-width="1.5"/>
+  </g>
+
+  <text class="label" x="66" y="262">MACHINE LEARNING · DEEP LEARNING · TIME SERIES · SIGNAL PROCESSING · MLOPS</text>
+</svg>
